@@ -225,7 +225,7 @@ kubectl exec -it busybox -- wget --spider --timeout=1 <nginx-service-ClusterIP>
 
 ## 6. 👤 RBAC 설정
 
-- *Role-Based Access Control(RBAC)**을 사용하여 **사용자 및 애플리케이션의 접근 권한**을 제한한다.
+- Role-Based Access Control(RBAC)을 사용하여 **사용자 및 애플리케이션의 접근 권한**을 제한한다.
 
 ### 6-1. RBAC Role YAML 파일 생성 (`developer-role.yaml`)
 
